@@ -1,4 +1,3 @@
-
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -1407,7 +1406,7 @@ textarea {
 }
 
 a {
-    color: #354f65;
+    color: #337ab7;
     text-decoration: none
 }
 
@@ -1428,7 +1427,8 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    max-width: 100%;
 }
 
 .carousel-inner>.item>a>img,
@@ -1436,8 +1436,7 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    margin-left: auto;
-    margin-right: auto;
+    
     max-width: 100%;
     height: auto
 }
