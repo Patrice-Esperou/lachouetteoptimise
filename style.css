@@ -402,6 +402,9 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    img{
+        max-width: 100%;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -847,6 +850,9 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    img {
+        max-width: 100%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -1027,6 +1033,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    img {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1034,10 +1043,17 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    img {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    img {
+        max-width: 100%;
+    }
 }
+
